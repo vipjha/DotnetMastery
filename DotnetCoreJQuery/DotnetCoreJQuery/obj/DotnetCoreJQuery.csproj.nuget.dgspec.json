@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\DotnetCoreJQuery\\DotnetCoreJQuery.csproj": {}
+    "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\DotnetCoreJQuery.csproj": {}
   },
   "projects": {
-    "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\DotnetCoreJQuery\\DotnetCoreJQuery.csproj": {
+    "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\DotnetCoreJQuery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\DotnetCoreJQuery\\DotnetCoreJQuery.csproj",
+        "projectUniqueName": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\DotnetCoreJQuery.csproj",
         "projectName": "DotnetCoreJQuery",
-        "projectPath": "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\DotnetCoreJQuery\\DotnetCoreJQuery.csproj",
+        "projectPath": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\DotnetCoreJQuery.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\DotnetCoreJQuery\\obj\\",
+        "outputPath": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

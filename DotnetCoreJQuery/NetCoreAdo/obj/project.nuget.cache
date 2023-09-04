@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rUR52tVqJ1Z/N9EZAIU+F8c/mWU7SmGD3YTCzJRlxeDJaPMPAj2zwYfSPr0zEhmWeuQtBHzZVTOLs6zncq1MjQ==",
+  "dgSpecHash": "XH9rIa/LgsDkI9do3lM6AGuiidlUgiBS41Oq4zp8labuRSZl13XF373m/ELat0thfq3gE5sP576MdwuDoMDziw==",
   "success": true,
-  "projectFilePath": "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\NetCoreAdo\\NetCoreAdo.csproj",
+  "projectFilePath": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\NetCoreAdo\\NetCoreAdo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\NetCoreAdo\\NetCoreAdo.csproj": {}
+    "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\NetCoreAdo\\NetCoreAdo.csproj": {}
   },
   "projects": {
-    "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\NetCoreAdo\\NetCoreAdo.csproj": {
+    "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\NetCoreAdo\\NetCoreAdo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\NetCoreAdo\\NetCoreAdo.csproj",
+        "projectUniqueName": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\NetCoreAdo\\NetCoreAdo.csproj",
         "projectName": "NetCoreAdo",
-        "projectPath": "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\NetCoreAdo\\NetCoreAdo.csproj",
+        "projectPath": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\NetCoreAdo\\NetCoreAdo.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\NetCoreAdo\\obj\\",
+        "outputPath": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\NetCoreAdo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

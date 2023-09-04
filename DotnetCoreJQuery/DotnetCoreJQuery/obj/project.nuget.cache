@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vpnsKaB/U3/LBulQ7vgMbdJt5LmnzyjFe93DNBbS1hwZA4tOuMIzhyT2dJCkBGCDw67WoLJYLRG4gcNEMlB7fw==",
+  "dgSpecHash": "1HAC7eba+Qc31yK5JivUT2MQ3nm3rm41ZYwHHQRYy6HN1NNFR1Z8msijkRXWoMXM3DbmBGAOu7TBEKARRFHmYw==",
   "success": true,
-  "projectFilePath": "E:\\FinleWorkToUploadOnGit\\DotnetWithJQury\\DotnetCoreJQuery\\DotnetCoreJQuery\\DotnetCoreJQuery.csproj",
+  "projectFilePath": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\DotnetCoreJQuery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

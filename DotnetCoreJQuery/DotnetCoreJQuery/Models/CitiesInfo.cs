@@ -2,6 +2,27 @@
 {
     public class CitiesInfo
     {
+        public List<CountryInfo> countryInfo = new List<CountryInfo>();
+        public List<CountryInfo> CountryInfoList
+        {
+            get { return countryInfo; }
+            set {countryInfo = value; }
+        }
+
+        public List<StateInfo> stateInfo = new List<StateInfo>();
+        public List<StateInfo> StateInfoList
+        {
+            get { return stateInfo; }
+            set { stateInfo = value; }
+        }
+
+        public List<CityInfo> cityInfo = new List<CityInfo>();
+        public List<CityInfo> CityInfoList
+        {
+            get { return cityInfo; }
+            set { cityInfo = value; }
+        }
+
     }
 
     public class CountryInfo
