@@ -17,8 +17,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\15975bf2-7532-4192-bd19-38dfe5f782ff.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\15975bf2-7532-4192-bd19-38dfe5f782ff.jpg"
+    },
+    {
+      "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\424d0ddf-d936-4ba9-87af-2ef2f4179690.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\424d0ddf-d936-4ba9-87af-2ef2f4179690.jpg"
+    },
+    {
+      "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\66761f50-0549-4536-891b-c5feb9d75177.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\66761f50-0549-4536-891b-c5feb9d75177.jpg"
+    },
+    {
+      "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\828959af-3eb4-4a64-b879-f6b0a6324880.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\828959af-3eb4-4a64-b879-f6b0a6324880.jpg"
+    },
+    {
+      "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\b69f4d2c-d45b-473f-8fec-c3231fa2d2b0.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b69f4d2c-d45b-473f-8fec-c3231fa2d2b0.jpg"
+    },
+    {
+      "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\c5ae1fb4-188d-43e3-ac34-51b76c25c0a0.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\c5ae1fb4-188d-43e3-ac34-51b76c25c0a0.jpg"
+    },
+    {
       "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\fab1a49a-2efe-4fba-b9ac-35c8fb461f2c.jpg",
       "PackagePath": "staticwebassets\\images\\products\\fab1a49a-2efe-4fba-b9ac-35c8fb461f2c.jpg"
+    },
+    {
+      "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\site.js",

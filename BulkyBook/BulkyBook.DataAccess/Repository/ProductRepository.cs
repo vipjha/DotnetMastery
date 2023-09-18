@@ -30,17 +30,13 @@ namespace BulkyBook.DataAccess.Repository
                 objFromDb.Price100= obj.Price100;
                 objFromDb.Author= obj.Author;
                 objFromDb.CategoryId = obj.CategoryId;
-                objFromDb.CoverdId = obj.CoverdId;
+                objFromDb.CoverTypeId = obj.CoverTypeId;
                 if(obj.ImageUrl != null)
                 {
                     objFromDb.ImageUrl = obj.ImageUrl;
                 }
-
+                _db.Products.Update(objFromDb);
             }
-
-            _db.Products.Update(obj);
-
-            //throw new NotImplementedException();
         }
     }
 }

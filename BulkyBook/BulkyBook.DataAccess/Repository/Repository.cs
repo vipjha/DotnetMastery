@@ -13,6 +13,7 @@ namespace BulkyBook.DataAccess.Repository
         public Repository(ApplicationDbContext db)
         {
             _db = db;
+           // _db = db.Products.Include(x => x.Category);
             this.dbSet = _db.Set<T>();
         }
 
@@ -22,18 +23,31 @@ namespace BulkyBook.DataAccess.Repository
             //throw new NotImplementedException();
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
-
+            if(includeProperties != null)
+            {
+                foreach(var includePro in includeProperties.Split(new char[] {','},StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includePro);
+                }
+            }
             return query.ToList();
             //throw new NotImplementedException();
         }
 
-        public T GetFirstOrDefault(Expression<Func<T, bool>> filter)
+        public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
             query = query.Where(filter);
+            if (includeProperties != null)
+            {
+                foreach (var includePro in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includePro);
+                }
+            }
             return query.FirstOrDefault(); 
             //throw new NotImplementedException();
         }
