@@ -17,9 +17,11 @@ namespace BulkyBook.DataAccess.Repository
             _db = db;
             CategoryUnit = new CategoryRepository(_db);
             CoverTypeUnit = new CoverTypeRepository(_db);
+            ProductUnit = new ProductRepository(_db);
         } 
         public ICategoryRepository CategoryUnit { get; private set; }
         public ICoverTypeRepository CoverTypeUnit { get; private set; }
+        public IProductRepository ProductUnit { get; private set; }
 
         public void Save()
         {

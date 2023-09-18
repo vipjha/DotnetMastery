@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\wwwroot\\js\\validation.js",
+      "PackagePath": "staticwebassets\\js\\validation.js"
+    },
+    {
       "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

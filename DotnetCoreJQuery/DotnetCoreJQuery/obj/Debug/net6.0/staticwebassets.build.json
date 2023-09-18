@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WnEoM34XBhUlQOS5KZP4gIFAsd6nH8xTjIlZiYGFtQM=",
+  "Hash": "v1xZDbbreFY+W8SfzO/R653ptpPIAzXSbkebtKAxLw8=",
   "Source": "DotnetCoreJQuery",
   "BasePath": "_content/DotnetCoreJQuery",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\wwwroot\\js\\validation.js",
+      "SourceId": "DotnetCoreJQuery",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\wwwroot\\",
+      "BasePath": "_content/DotnetCoreJQuery",
+      "RelativePath": "js/validation.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\validation.js"
     },
     {
       "Identity": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\DotnetCoreJQuery\\DotnetCoreJQuery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

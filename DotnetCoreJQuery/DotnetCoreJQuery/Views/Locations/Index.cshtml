@@ -4,59 +4,162 @@
 }
 <div class="row">
     <div class="col-md-12">
-        <h1>Country Sate City</h1>
+        <h1>From</h1>
         <hr />
-        <div class="form-group mt-2">
-            <div class="row">
-                <div class="col-md-3">Country</div>
-                <div class="col-md-9">
-                    
-                    <select id="ddlCountry" class="form-control" onchange="fnStateList()">
-                    <option value="">Select country</option>
-                    @foreach(var item in Model.CountryInfoList){
-                    <option value="@item.CId">@item.CName</option>
-                    }
-                    </select>
-                    
+        <div class="row mt-2">
+            <div class="col-md-3">Name</div>
+            <div class="col-md-9">
+                <input type="text" name="txtName" id="txtName" maxlength="20" class="form-control" onchange="return CheckValidationHide(this)" />
+                <span id="errNameDiv" style="color:red"></span>
+            </div>
+        </div>
 
-                  @*  <select id="ddlCountry" class="form-control" asp-items="@(new SelectList(Model.CountryInfoList,"CId","CName"))"
-                            onchange="fnStateList()"></select>*@
-                </div>
+        <div class="row mt-2">
+            <div class="col-md-3">Mobile</div>
+            <div class="col-md-9">
+                <input type="text" name="txtMobile" id="txtMobile" maxlength="10" class="form-control" onchange=" return CheckValidationHide(this)" onkeypress="return isNumberKey(event)" />
+                <span id="errMobileDiv" style="color:red"></span>
             </div>
         </div>
-        <div class="form-group mt-2">
-            <div class="row">
-                <div class="col-md-3">State</div>
-                <div class="col-md-9">
-                    <select aria-label="Select Sate" id="ddlState" class="form-control" onchange="fnCityList()">
-                        <option value="">Select state</option>
-                       @* <option value="">Select state</option>
-                        <option value="1">Bihar</option>
-                        <option value="1">UP</option>
-                        <option value="1">Punjab</option>*@
-                    </select>
-                </div>
+
+        <div class="row mt-2">
+            <div class="col-md-3">Email</div>
+            <div class="col-md-9">
+                <input type="text" name="txtEmail" id="txtEmail" class="form-control" onchange=" return CheckValidationHide(this)" />
+                <span id="errEmailDiv" style="color:red"></span>
             </div>
         </div>
-        <div class="form-group mt-2">
-            <div class="row">
-                <div class="col-md-3">Cities</div>
-                <div class="col-md-9">
-                    <select aria-label="Select city" id="ddlCities" class="form-control">
-                        <option value="">Select Cities</option>
-                       @* <option value="">Select Cities</option>
-                        <option value="1">Delhi</option>
-                        <option value="1">Patna</option>
-                        <option value="1">Darbhanga</option>*@
-                    </select>
-                </div>
+
+        <div class="row mt-2">
+            <div class="col-md-3">Country</div>
+            <div class="col-md-9">
+
+                @*<select id="ddlCountry" class="form-control" onchange="fnStateList()">
+                <option value="">Select country</option>
+                @foreach (var item in Model.CountryInfoList)
+                {
+                <option value="@item.CId">@item.CName</option>
+                }
+                </select>*@
+
+
+                @*  <select id="ddlCountry" class="form-control" asp-items="@(new SelectList(Model.CountryInfoList,"CId","CName"))"
+                onchange="fnStateList()"></select>*@
+                <select id="ddlCountry" class="form-control" onchange="fnStateList()"></select>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-3">State</div>
+            <div class="col-md-9">
+                <select aria-label="Select Sate" id="ddlState" class="form-control" onchange="fnCityList()">
+                    <option value="">Select state</option>
+                    @* <option value="">Select state</option>
+                    <option value="1">Bihar</option>
+                    <option value="1">UP</option>
+                    <option value="1">Punjab</option>*@
+                </select>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-3">Cities</div>
+            <div class="col-md-9">
+                <select id="ddlCities" class="form-control">
+                    <option value="">Select Cities</option>
+                    @* <option value="">Select Cities</option>
+                    <option value="1">Delhi</option>
+                    <option value="1">Patna</option>
+                    <option value="1">Darbhanga</option>*@
+                </select>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+                <a href="javascript:void(0)" class="btn btn-primary" onclick="SaveRecord()">SUBMIT</a>
+                <a href="javascript:void(0)" class="btn btn-warning" onclick="fnResetForm()">RESET</a>
             </div>
         </div>
 
     </div>
 </div>
 <script src="~/js/jquery-3.7.1.min.js"></script>
+<script src="~/js/validation.js" asp-append-version="true"></script>
 <script type="text/javascript" asp-append-version="true">
+    $(document).ready(function () {
+        fnCountryList();
+    });
+
+    function SaveRecord() {
+        if (!ValidateInfo()) {
+            return false;
+        }
+       // alert("validate form")
+    }
+
+    function ValidateInfo() {
+        var result = true;
+        if ($('#txtName').val().trim().length <= 2) {
+            $('#errNameDiv').show();
+            $('#errNameDiv').text('Your name is required');
+        }
+        else {
+            $('#errNameDiv').hide();
+        }
+        if ($('#txtMobile').val().trim().length == 0) {
+            $('#errMobileDiv').show();
+            $('#errMobileDiv').text('Your mobile is required');
+        }
+        else {
+            if (fnValidateMobileNo($("#txtMobile").val().trim())) {
+                $('#errMobileDiv').hide();
+            }
+            else {
+                $('#errEmailDiv').show();
+                $('#errMobileDiv').text('Enter valid mobile number');
+                result = false;
+            }
+        }
+        if ($('#txtEmail').val().trim().length == 0) {
+            $('#errEmailDiv').show();
+            $('#errEmailDiv').text('Your email is required');
+        }
+        else {
+            if (validateEmail($("#txtEmail").val().trim())) {
+                $('#errEmailDiv').hide();
+            }
+            else {
+                $('#errEmailDiv').show();
+                $('#errEmailDiv').text('Enter valid email');
+                result = false;
+            }
+        }
+        return result;
+    }
+
+    function fnCountryList() {
+        var CountryName = $("#ddlCountry");
+        CountryName.empty();
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("CountryData","Locations")",
+            //data: { sid: $("#ddlState").val() },
+            dataType: "json",
+            success: function (result) {
+                //console.log(result);
+                CountryName.append(`<option value="">Select country</option>`);
+                $.each(result.countryInfoList, function (index, raj) {
+                    CountryName.append(`<option value="${raj.cId}">${raj.cName}</option>`);
+                })
+            },
+            Error: function (req, status, error) {
+
+            }
+        });
+    }
+
     function fnStateList() {
         var StateName = $("#ddlState");
         StateName.empty();
@@ -65,16 +168,15 @@
             url: "@Url.Action("StateData","Locations")",
             data: { cid: $("#ddlCountry").val() },
             dataType: "json",
-            success:function(result){
-                console.log(result);
-                    StateName.append(`<option value="">Select State</option>`);
+            success: function (result) {
+                //console.log(result);
+                StateName.append(`<option value="">Select State</option>`);
                 $.each(result.stateInfoList, function (index, raj) {
                     StateName.append(`<option value="${raj.sId}">${raj.sName}</option>`);
                     //alert(result.state)
                 })
             },
-            Error:function(req,status,error){
-
+            Error: function (req, status, error) {
             }
         });
     }
@@ -88,7 +190,7 @@
             data: { sid: $("#ddlState").val() },
             dataType: "json",
             success: function (result) {
-                console.log(result);
+                //console.log(result);
                 CityName.append(`<option value="">Select city</option>`);
                 $.each(result.cityInfoList, function (index, raj) {
                     CityName.append(`<option value="${raj.cityId}">${raj.cityName}</option>`);
@@ -98,6 +200,57 @@
 
             }
         });
+    }
+
+    function CheckValidationHide(x){
+        var id =x.id;
+        if (id == 'txtName'){
+            if ($('#txtName').val().trim().length <= 2) {
+                $('#errNameDiv').show();
+                $('#errNameDiv').text('Your name is required');
+            }
+            else {
+                $('#errNameDiv').hide();
+            }
+        }
+        else if (id == 'txtMobile') {
+            if ($('#txtMobile').val().trim().length == 0) {
+                $('#errMobileDiv').show();
+                $('#errMobileDiv').text('Your mobile is required');
+            }
+            else {
+                if (fnValidateMobileNo($("#txtMobile").val().trim())) {
+                    $('#errMobileDiv').hide();
+                }
+                else {
+                    $('#errEmailDiv').show();
+                    $('#errMobileDiv').text('Enter valid mobile number');
+                    result = false;
+                }
+            }
+        }
+        else if (id == 'txtEmail') {
+            if ($('#txtEmail').val().trim().length == 0) {
+                $('#errEmailDiv').show();
+                $('#errEmailDiv').text('Your email is required');
+            }
+            else {
+                if (validateEmail($("#txtEmail").val().trim())) {
+                    $('#errEmailDiv').hide();
+                }
+                else {
+                    $('#errEmailDiv').show();
+                    $('#errEmailDiv').text('Enter valid email');
+                    result = false;
+                }
+            }
+        }
+    }
+
+    function fnResetForm(){
+        $('#txtName').val('');
+        $('#txtMobile').val('');
+        $('#txtEmail').val('');
     }
 </script>
 

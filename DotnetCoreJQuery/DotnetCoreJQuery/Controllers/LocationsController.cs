@@ -9,7 +9,7 @@ namespace DotnetCoreJQuery.Controllers
         // GET: LocationsController
         public ActionResult Index()
         {
-            CitiesInfo model = new CitiesInfo();
+            /*CitiesInfo model = new CitiesInfo();
             //model.CountryInfoList.Add(new CountryInfo { CId = 0, CName = "Select country" });
             model.CountryInfoList.Add(new CountryInfo { CId = 101, CName = "India" });
             model.CountryInfoList.Add(new CountryInfo { CId = 102, CName = "Nepal" });
@@ -19,6 +19,24 @@ namespace DotnetCoreJQuery.Controllers
 
 
             return View(model);
+            */
+
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult CountryData()
+        {
+            CitiesInfo model = new CitiesInfo();
+            //model.CountryInfoList.Add(new CountryInfo { CId = 0, CName = "Select country" });
+            model.CountryInfoList.Add(new CountryInfo { CId = 101, CName = "India" });
+            model.CountryInfoList.Add(new CountryInfo { CId = 102, CName = "Nepal" });
+            model.CountryInfoList.Add(new CountryInfo { CId = 103, CName = "Shrilanka" });
+            model.CountryInfoList.Add(new CountryInfo { CId = 104, CName = "Chaina" });
+            model.CountryInfoList.Add(new CountryInfo { CId = 105, CName = "England" });
+
+
+            return Json(model);
         }
 
         [HttpPost]

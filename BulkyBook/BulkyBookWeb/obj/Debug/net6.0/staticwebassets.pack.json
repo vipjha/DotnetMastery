@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\fab1a49a-2efe-4fba-b9ac-35c8fb461f2c.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fab1a49a-2efe-4fba-b9ac-35c8fb461f2c.jpg"
+    },
+    {
       "Id": "E:\\FinleWorkToUploadOnGit\\DotnetMastery\\BulkyBook\\BulkyBookWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
