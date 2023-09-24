@@ -1,0 +1,174 @@
+﻿@*<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+*@
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-md-3"><h1>Category</h1></div>
+        <div class="col-md-6" id="errMsg"></div>
+        <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modelAddCategory">
+                Create Category
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modelAddCategory" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modelAddCategoryLabel">Add/Update Model</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group mb-3">
+                                <input type="text" id="textName" class="form-control" />
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="text" id="textMainCategory" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="hidden" id="idHdin" />
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" onclick="fnAddCategory()">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr />
+    <!-- Button trigger modal -->
+
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Main Heading</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tbodyCategory"></tbody>
+    </table>
+</div>
+<script src="~/js/jquery-3.7.1.min.js" asp-append-version="true"></script>
+
+<script type="text/javascript" asp-append-version="true">
+    $(document).ready(function () {
+        fnCategoryList();
+    });
+
+    function fnCategoryList() {
+        var CategoryData = $("#tbodyCategory");
+        CategoryData.empty();
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("GetAllCategory","Category")",
+            //data: { sid: $("#ddlState").val() },
+            dataType: "json",
+            success: function (result) {
+                //console.log(result);
+                $.each(result.categoryList, function (index, raj) {
+                    CategoryData.append(`
+                        <tr>
+                                <td>${raj.id}</td>
+                                    <td>${raj.name}</td>
+                                    <td>${raj.mainCategory}</td>
+                                    <td>${raj.creationDate}</td>
+                                    <td>
+                                                        <button type="button"  class="btn btn-primary" onclick ="funDeleteData(${raj.id})">Remove</a>
+                                                    <button type="button"  class="btn btn-primary" onclick ="funEditData(${raj.id})">Edit</a>
+                                    </td>
+                        </tr>
+                        `);
+                })
+            },
+            Error: function (req, status, error) {
+
+            }
+        });
+    }
+
+    function fnAddCategory() {
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("AddUpdateCategory","Category")",
+            contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+            data: {
+                "Name": $("#textName").val(),
+                "MainCategory": $("#textMainCategory").val(),
+                "Id": $("#idHdin").val()
+            },
+            success: function (response) {
+                if (response.totalRow == '1') {
+                    $("#errMsg").html("Add successfuly !");
+                    fnCategoryList();
+                    $("#textName").val("");
+                    $("#textMainCategory").val("");
+                    $("#modelAddCategory").modal('hide');
+                }
+                else {
+                    $("#modelAddCategory").modal('show');
+                    $("#errMsg").html("Add not success !");
+                }
+            }
+
+        })
+    }
+
+    function funEditData(id) {
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("GetCategoryDetail","Category")",
+            data: {
+                "id": id
+            },
+            dataType: "json",
+            success: function (result) {
+                $("#modelAddCategory").modal('show');
+                $("#textName").val(result.category.name);
+                $("#textMainCategory").val(result.category.mainCategory);
+                $("#idHdin").val(result.category.id);
+            }
+    })
+    }
+
+    function funDeleteData(id) {
+        let text = "Are you sure to delete this record?"
+        if(confirm(text)==true){
+
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("DeleteCategory","Category")",
+                contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+                data: {
+                    "Id":id
+                },
+                success: function (response) {
+                    if (response.totalRow == '1') {
+                        $("#errMsg").html(result.errorMsg);
+                        fnCategoryList();
+                    }
+                    else {
+                        $("#errMsg").html(result.errorMsg);
+                    }
+                }
+
+            })
+
+            $("#errMsg").html("Deleted sucessfuly");
+        }
+        else
+        {
+            $("#errMsg").html("");
+        }
+    }
+
+</script>

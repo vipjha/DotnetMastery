@@ -20,7 +20,7 @@ function loadDataTable() {
                     return `
                     <div class="w-75 btn-group" role="group">
                      <a href="/Admin/Product/Upsert?id=${data}" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i class="bi bi-pencil-square"></i>Edit</a>
-                     <a onClick=Delete('Admin/Product/Delete/${data}') class="btn btn-danger mx-2"><i class="bi bi-trash-fill"></i>Delete</a>
+                     <a onClick=Delete('/Admin/Product/Delete/${data}') class="btn btn-danger mx-2"><i class="bi bi-trash-fill"></i>Delete</a>
                     </div>
                     `
                 },
@@ -31,8 +31,8 @@ function loadDataTable() {
     // console.log(data);
 }
 
-
 function Delete(url) {
+    console.log(url);
     Swal.fire({
         title: 'Are you sure?',
         text: "You won't be able to revert this!",
@@ -45,10 +45,11 @@ function Delete(url) {
         if (result.isConfirmed) {
             $.ajax({
                 url: url,
-                type: 'Delete',
+                type: 'DELETE',
+                dataTyepe: JSON,
                 success: function (data) {
                     if (data.success) {
-                        dataTable.ajax.reload();
+                        dataTable.ajax.reload('#tblData');
                         toastr.success(data.message)
                     }
                     else {
