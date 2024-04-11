@@ -1,0 +1,15 @@
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\bin\Debug\net7.0\Basic.exe
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\bin\Debug\net7.0\Basic.deps.json
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\bin\Debug\net7.0\Basic.runtimeconfig.json
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\bin\Debug\net7.0\Basic.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\bin\Debug\net7.0\Basic.pdb
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\obj\Debug\net7.0\Basic.csproj.AssemblyReference.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\obj\Debug\net7.0\Basic.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\obj\Debug\net7.0\Basic.AssemblyInfoInputs.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\obj\Debug\net7.0\Basic.AssemblyInfo.cs
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\obj\Debug\net7.0\Basic.csproj.CoreCompileInputs.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\obj\Debug\net7.0\Basic.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\obj\Debug\net7.0\refint\Basic.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\obj\Debug\net7.0\Basic.pdb
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\obj\Debug\net7.0\Basic.genruntimeconfig.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Basic\obj\Debug\net7.0\ref\Basic.dll

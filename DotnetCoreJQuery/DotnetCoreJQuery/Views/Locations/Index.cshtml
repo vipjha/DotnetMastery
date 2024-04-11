@@ -13,7 +13,6 @@
                 <span id="errNameDiv" style="color:red"></span>
             </div>
         </div>
-
         <div class="row mt-2">
             <div class="col-md-3">Mobile</div>
             <div class="col-md-9">
@@ -21,7 +20,6 @@
                 <span id="errMobileDiv" style="color:red"></span>
             </div>
         </div>
-
         <div class="row mt-2">
             <div class="col-md-3">Email</div>
             <div class="col-md-9">
@@ -29,7 +27,6 @@
                 <span id="errEmailDiv" style="color:red"></span>
             </div>
         </div>
-
         <div class="row mt-2">
             <div class="col-md-3">Country</div>
             <div class="col-md-9">
@@ -48,7 +45,6 @@
                 <select id="ddlCountry" class="form-control" onchange="fnStateList()"></select>
             </div>
         </div>
-
         <div class="row mt-2">
             <div class="col-md-3">State</div>
             <div class="col-md-9">
@@ -61,7 +57,6 @@
                 </select>
             </div>
         </div>
-
         <div class="row mt-2">
             <div class="col-md-3">Cities</div>
             <div class="col-md-9">
@@ -74,7 +69,6 @@
                 </select>
             </div>
         </div>
-
         <div class="row mt-2">
             <div class="col-md-3"></div>
             <div class="col-md-9">
@@ -82,12 +76,12 @@
                 <a href="javascript:void(0)" class="btn btn-warning" onclick="fnResetForm()">RESET</a>
             </div>
         </div>
-
     </div>
 </div>
 <script src="~/js/jquery-3.7.1.min.js"></script>
 <script src="~/js/validation.js" asp-append-version="true"></script>
 <script type="text/javascript" asp-append-version="true">
+   
     $(document).ready(function () {
         fnCountryList();
     });
