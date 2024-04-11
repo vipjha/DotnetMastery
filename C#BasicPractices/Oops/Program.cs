@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Oops;
+
+
+
+
+/*//var is the implicity type variable introduced in c# 8.0
+TypesDemo implicityType =  new TypesDemo();
+implicityType.TypesDemoMehtod();*/

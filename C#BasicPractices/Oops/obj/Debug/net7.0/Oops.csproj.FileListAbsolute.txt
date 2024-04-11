@@ -1,0 +1,15 @@
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\bin\Debug\net7.0\Oops.exe
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\bin\Debug\net7.0\Oops.deps.json
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\bin\Debug\net7.0\Oops.runtimeconfig.json
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\bin\Debug\net7.0\Oops.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\bin\Debug\net7.0\Oops.pdb
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\obj\Debug\net7.0\Oops.csproj.AssemblyReference.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\obj\Debug\net7.0\Oops.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\obj\Debug\net7.0\Oops.AssemblyInfoInputs.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\obj\Debug\net7.0\Oops.AssemblyInfo.cs
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\obj\Debug\net7.0\Oops.csproj.CoreCompileInputs.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\obj\Debug\net7.0\Oops.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\obj\Debug\net7.0\refint\Oops.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\obj\Debug\net7.0\Oops.pdb
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\obj\Debug\net7.0\Oops.genruntimeconfig.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\Oops\obj\Debug\net7.0\ref\Oops.dll

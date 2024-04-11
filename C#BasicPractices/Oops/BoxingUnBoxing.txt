@@ -1,0 +1,8 @@
+﻿Boxing and Un-Boxing:
+-- If a value type is convert into  refrence type we call this process as boxing.
+Ex: int x = 100;
+Object obj = x; // Boxing
+
+-- If the value type which is converted into refrence type which is again converted back into a value type we called as un-boxing, but here explicit type casting is required.
+
+EX: int y = Convert.ToInt32(obj); // Un-Boxing
