@@ -1,0 +1,6 @@
+﻿ForEach Loop: The loop is specially design for accessing the value of any array for a collection. Where for each itration of the loop once value of the array is assgined to the loop variable in a sequence and returned. 
+
+Diffrences between For and Foreach:
+ -- In case of for loop the variable, of the loop refers to index of the array where as in case of foreach variable of the array.
+ -- In case of for the loop variable of always be of int type only where as in case of foreach the loop variable will be having the same type of value present in the array.
+ -- For loop can be used both for accessing as well as assiging of value, where as foreach loop can be used only for accessing the values not assiging the value.

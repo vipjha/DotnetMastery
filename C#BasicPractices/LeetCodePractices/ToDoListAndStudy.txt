@@ -1,0 +1,8 @@
+﻿1. Multithreading
+ 2. PDF Generation
+ 3. Asynchronous Method
+ 4. Http/https/websocket protocols
+ 5. MySQL/Oracle Databases
+ 6. Table/Functions/Triggers/Procedures/Views/Sequences
+ 7. Strong OOPS concepts
+ 8. ThirdParty API (Uber/Lyft/GoogleMap) Implementation

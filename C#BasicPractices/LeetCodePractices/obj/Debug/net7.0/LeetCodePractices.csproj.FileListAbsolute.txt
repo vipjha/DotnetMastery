@@ -1,0 +1,15 @@
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\bin\Debug\net7.0\LeetCodePractices.exe
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\bin\Debug\net7.0\LeetCodePractices.deps.json
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\bin\Debug\net7.0\LeetCodePractices.runtimeconfig.json
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\bin\Debug\net7.0\LeetCodePractices.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\bin\Debug\net7.0\LeetCodePractices.pdb
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\obj\Debug\net7.0\LeetCodePractices.csproj.AssemblyReference.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\obj\Debug\net7.0\LeetCodePractices.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\obj\Debug\net7.0\LeetCodePractices.AssemblyInfoInputs.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\obj\Debug\net7.0\LeetCodePractices.AssemblyInfo.cs
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\obj\Debug\net7.0\LeetCodePractices.csproj.CoreCompileInputs.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\obj\Debug\net7.0\LeetCodePractices.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\obj\Debug\net7.0\refint\LeetCodePractices.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\obj\Debug\net7.0\LeetCodePractices.pdb
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\obj\Debug\net7.0\LeetCodePractices.genruntimeconfig.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\LeetCodePractices\obj\Debug\net7.0\ref\LeetCodePractices.dll
