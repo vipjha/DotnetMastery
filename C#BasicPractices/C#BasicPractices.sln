@@ -27,11 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq", "Linq\Linq.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oops", "Oops", "{E6075B20-7461-4E35-BC98-C23B714F9CD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oops", "Oops\Oops.csproj", "{E1CA8AFE-C26D-4D1F-A5FB-668682C0F289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oops", "Oops\Oops.csproj", "{E1CA8AFE-C26D-4D1F-A5FB-668682C0F289}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{D979020B-8D41-4531-9789-768AC8435CB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodePractices", "LeetCodePractices\LeetCodePractices.csproj", "{9927FA1E-4496-4E3B-995F-80D33D0E6C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodePractices", "LeetCodePractices\LeetCodePractices.csproj", "{9927FA1E-4496-4E3B-995F-80D33D0E6C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMvc", "WebApplicationMvc\WebApplicationMvc.csproj", "{193E07C7-9955-47C9-B9E8-0086AAF91150}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{9927FA1E-4496-4E3B-995F-80D33D0E6C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9927FA1E-4496-4E3B-995F-80D33D0E6C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9927FA1E-4496-4E3B-995F-80D33D0E6C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193E07C7-9955-47C9-B9E8-0086AAF91150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193E07C7-9955-47C9-B9E8-0086AAF91150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193E07C7-9955-47C9-B9E8-0086AAF91150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193E07C7-9955-47C9-B9E8-0086AAF91150}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{5619BDC4-785D-4A6E-B370-6E468332C175} = {CFB35BE2-B80A-48FE-894D-1F2967764328}
 		{E1CA8AFE-C26D-4D1F-A5FB-668682C0F289} = {E6075B20-7461-4E35-BC98-C23B714F9CD9}
 		{9927FA1E-4496-4E3B-995F-80D33D0E6C93} = {D979020B-8D41-4531-9789-768AC8435CB7}
+		{193E07C7-9955-47C9-B9E8-0086AAF91150} = {77348C06-B19E-4D9B-ADE2-F433A6687FA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {538C29B9-6192-420E-8EF7-11C2695EA64F}

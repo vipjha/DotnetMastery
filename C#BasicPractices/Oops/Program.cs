@@ -1,8 +1,16 @@
 ﻿using Oops;
 
-//Single dimension error
+//Delegate
+DelegateDemo obj = new DelegateDemo();
+AddDel ad = new AddDel(obj.Add);
+SayDel sd = new SayDel(obj.SayHello);
+ad(100, 50); ad(200, 300);
+//Console.WriteLine(sd("Hello"));
+
+
+/*//Single dimension error
 SDArrayDemo sDArrayDemo = new SDArrayDemo();
-sDArrayDemo.SDArrayDemoMethod();
+sDArrayDemo.SDArrayDemoMethod();*/
 
 /*
 //Switch case: 
