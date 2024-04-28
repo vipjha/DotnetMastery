@@ -1,11 +1,18 @@
 ﻿using Oops;
 
-//Delegate
+NonStaticClassCheck nonStaticClassCheck = new NonStaticClassCheck();
+nonStaticClassCheck.NonStaticMethodOne();
+
+/*//Calling sealed class
+SealedClass sealedClass = new SealedClass();
+sealedClass.InheritSealedClassMethod();*/
+
+/*//Delegate
 DelegateDemo obj = new DelegateDemo();
 AddDel ad = new AddDel(obj.Add);
 SayDel sd = new SayDel(obj.SayHello);
 ad(100, 50); ad(200, 300);
-//Console.WriteLine(sd("Hello"));
+//Console.WriteLine(sd("Hello"));*/
 
 
 /*//Single dimension error

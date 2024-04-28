@@ -1,7 +1,7 @@
 ﻿using Basic;
 
-        // Serching prime number 
-        PrimeNumber getPrime = new PrimeNumber();
+// Serching prime number 
+PrimeNumber getPrime = new PrimeNumber();
        getPrime.PrintPrimeNumber(1,100);
        
 

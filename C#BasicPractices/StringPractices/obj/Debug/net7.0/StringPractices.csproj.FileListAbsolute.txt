@@ -1,0 +1,15 @@
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\bin\Debug\net7.0\StringPractices.exe
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\bin\Debug\net7.0\StringPractices.deps.json
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\bin\Debug\net7.0\StringPractices.runtimeconfig.json
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\bin\Debug\net7.0\StringPractices.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\bin\Debug\net7.0\StringPractices.pdb
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\obj\Debug\net7.0\StringPractices.csproj.AssemblyReference.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\obj\Debug\net7.0\StringPractices.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\obj\Debug\net7.0\StringPractices.AssemblyInfoInputs.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\obj\Debug\net7.0\StringPractices.AssemblyInfo.cs
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\obj\Debug\net7.0\StringPractices.csproj.CoreCompileInputs.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\obj\Debug\net7.0\StringPractices.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\obj\Debug\net7.0\refint\StringPractices.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\obj\Debug\net7.0\StringPractices.pdb
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\obj\Debug\net7.0\StringPractices.genruntimeconfig.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\StringPractices\obj\Debug\net7.0\ref\StringPractices.dll

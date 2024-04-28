@@ -1,0 +1,15 @@
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\obj\Debug\net7.0\ArrayProject.csproj.AssemblyReference.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\obj\Debug\net7.0\ArrayProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\obj\Debug\net7.0\ArrayProject.AssemblyInfoInputs.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\obj\Debug\net7.0\ArrayProject.AssemblyInfo.cs
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\obj\Debug\net7.0\ArrayProject.csproj.CoreCompileInputs.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\bin\Debug\net7.0\ArrayProject.exe
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\bin\Debug\net7.0\ArrayProject.deps.json
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\bin\Debug\net7.0\ArrayProject.runtimeconfig.json
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\bin\Debug\net7.0\ArrayProject.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\bin\Debug\net7.0\ArrayProject.pdb
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\obj\Debug\net7.0\ArrayProject.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\obj\Debug\net7.0\refint\ArrayProject.dll
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\obj\Debug\net7.0\ArrayProject.pdb
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\obj\Debug\net7.0\ArrayProject.genruntimeconfig.cache
+E:\FinleWorkToUploadOnGit\DotnetMastery\C#BasicPractices\ArrayProject\obj\Debug\net7.0\ref\ArrayProject.dll

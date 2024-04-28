@@ -30,14 +30,11 @@ namespace Linq
                 .Distinct()
                 .ToList();
 
-            /*var employeesTakingLeave = empList.Where(l => l.LeaveDate >= startDate && l.LeaveDate <= endDate)
-                .Join(employeeList, t => t.EmpId, e => e.Id, (l, e) => e).Distinct().ToList();*/
-            /*var employyeeList1 = empList.Where(leave => leave.LeaveDate >= startDate && leave.LeaveDate < endDate)
-                            .Join(employeeList, leave => leave.EmpId, emp => emp.Id, (leave, emp) => emp);*/
-            /*var result = empList
-            .Where(leave => leave.LeaveDate >= startDate && leave.LeaveDate < endDate)
-            .Join(employeeList, leave => leave.EmpId, emp => emp.Id, (leave, emp) => new { Leave = leave, Employee = emp })
-            .Join(departmentList, combined => combined.Employee.DepartmentId, dept => dept.Id, (combined, dept) => new { combined.Leave, combined.Employee, Department = dept });*/
+            var employeesWithLeave = (from emp in employeeList
+                                      join leave in empList on emp.Id equals leave.EmpId
+                                      where leave.LeaveType == "CL" &&
+                                            leave.LeaveDate.Day >= 3 && leave.LeaveDate.Day <= 4
+                                      select emp).Distinct();
 
             Console.WriteLine("Employees who took leave between March and April:");
             foreach (var employee in employeesTakingLeave)
